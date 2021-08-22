@@ -1,0 +1,81 @@
+/* base styles */
+body {
+  background: url(img/Cave.jpg) no-repeat;
+  background-size: cover;
+  overflow-x: hidden;
+  font-family: "Arial";
+  background: cover;
+  color: white;
+}
+
+header {
+  padding-bottom: 10px;
+}
+
+.container {
+  background-color: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(5px);
+  margin-top: 200px;
+  width: 300px;
+  margin: auto;
+  padding: 50px 50px;
+  border-radius: 45px;
+}
+
+.container h3,
+h4,
+p {
+  text-align: center;
+  font-weight: 10;
+}
+
+h2 {
+  text-align: center;
+  padding-top: 20px;
+  font-weight: 50;
+}
+
+h1 {
+  font-weight: 500px;
+  text-align: center;
+}
+
+input {
+  width: 150px;
+  height: 40px;
+  border-radius: 25px;
+  align-items: center;
+  padding-left: 50px;
+  background-color: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(5px);
+  border: white;
+  border-width: 1px;
+}
+
+.input-box {
+  text-align: center;
+  color: white;
+  font-size: 30px;
+}
+
+.btn {
+  text-align: center;
+  padding-top: 20px;
+}
+
+button {
+  width: 85px;
+  height: 40px;
+  background-color: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(5px);
+  border-radius: 20px;
+  color: white;
+}
+
+.bmi {
+  font-size: 20px;
+}
+
+.result {
+  font-size: 15px;
+}
